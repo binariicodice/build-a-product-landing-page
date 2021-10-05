@@ -25,4 +25,4 @@ User Story #8: The img element should responsively resize, relative to the width
 
 User Story #9: The img element should be centered within its parent element.
 
-![alt text](https://github.com/[binariicodice]/[build-a-product-landing-page]/blob/[main]/1.png?raw=true)
+![alt text](https://github.com/binariicodice/build-a-product-landing-page/blob/main/1.png?raw=true)
