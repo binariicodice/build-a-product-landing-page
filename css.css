@@ -1,0 +1,111 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(216, 218, 231);
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    background-color:black;
+    max-height: 75px;
+    overflow: auto;
+}
+
+nav {
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+    border: solid black 2px;
+}
+
+a {
+    display: inline-flex;
+    margin-right: 50px;
+    color: white;
+    margin-top: 7px;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#header-img {
+    width: 20%;
+    height: 75px;
+    max-width: 150px;
+    max-height: 75px;
+    margin-right: 50px;
+    min-width: 150px;
+    min-height: 75px;
+}
+
+main {
+    padding-top: 80px;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+section {
+    padding-top: 20px;
+}
+
+@media (min-width: 1000px) {
+    main {
+        columns: 2;
+    }
+
+    #how-we-work {
+        break-before: column;
+    }
+}
+
+iframe {
+    width: 750px;
+    height: 500px;
+    padding: 20px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#info {
+    border: solid black 2px;
+    padding: 20px;
+    margin: 20px;
+    display: block;
+    text-align: left;
+}
+
+#info-title {
+    text-align: center;
+}
+
+#facebook {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#facebook2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}

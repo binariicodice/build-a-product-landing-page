@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+    <head>
+        <meta 
+        charset="UTF-8" 
+        content="product landing page" 
+        name="product landing page">
+        <link rel="stylesheet" href="css.css">
+        <title>Product landing page</title>
+    </head>
+    <body>
+
+        <header id="header">
+            <img id="header-img" src="facebook.png" alt="Company logo (Facebook)">
+            <nav id="nav-bar">
+                <ul>
+                    <li>
+                        <a class="nav-link" href="#e-mail-form">Newsletter</a>
+                        <a class="nav-link" href="#how-we-work">How we work</a>
+                        <a class="nav-link" href="#info">Info</a>
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="e-mail-form">
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <h4>Enter your email adress and we will send you information about Facebook</h4>
+                    <input 
+                    name="email" 
+                    id="email" 
+                    placeholder="Enter your email adress" 
+                    type="email"
+                    required>
+                    <input 
+                    id="submit" 
+                    type="submit" 
+                    value="Send e-mail info" 
+                    class="button">
+                </form>
+            </section>
+
+            <section id="info">
+                <h4 id="info-title">Here is some information about Facebook</h4>
+                <p>Facebook (stylized as facebook) is an American online social media and social networking service based in Menlo Park, California, and a flagship service of the namesake company Facebook, Inc. It was founded by Mark Zuckerberg, along with fellow Harvard College students and roommates Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hughes.<br>
+                    <pre></pre>
+                    The founders of Facebook initially limited membership to Harvard students. Membership was expanded to Columbia, Stanford, and Yale before being expanded to the rest of the Ivy League, MIT, and higher education institutions in the Boston area, then various other universities, and lastly high school students. Since 2006, anyone who claims to be at least 13 years old has been allowed to become a registered user of Facebook, though this may vary depending on local laws. The name comes from the face book directories often given to American university students.<br>
+                    <pre></pre>
+                    Facebook can be accessed from devices with Internet connectivity, such as personal computers, tablets and smartphones. After registering, users can create a profile revealing information about themselves. They can post text, photos and multimedia which is shared with any other users that have agreed to be their "friend", or, with a different privacy setting, with any reader. Users can also use various embedded apps, join common-interest groups, buy and sell items or services on Marketplace, and receive notifications of their Facebook friends' activities and activities of Facebook pages they follow. Facebook claimed that it had more than 2.3 billion monthly active users as of December 2018, and it was the most downloaded mobile app of the 2010s globally.</p>
+                    <img id="facebook" src="facebook-wiki.png" alt="facebook-logo">
+                    <img id="facebook2" src="facebook-wiki-2.png" alt="facebook-logo-text">
+            </section>
+
+            <section id="how-we-work">
+                <h4>Documentary video from BBC on how it is to work at Facebook</h4>
+                <iframe 
+                id="video"
+                height="300px"
+                width="450px"
+                src="https://youtube.com/embed/KgrNOhafmwo"
+                frameborder="0"
+                allowfullscreen></iframe>            
+            </section>
+        </main>
+
+        <footer>
+            <address id="contact">
+                Made by Bjørnar Borge <span>&#169;</span><br>
+                Contact? Press <a href="mailto:dev.b.borge@gmail.com">here.</a>
+            </address>
+        </footer>
+
+    </body>
+</html>
