@@ -1,5 +1,4 @@
-# Build a product landing page
-<h2>Responsive web design project at freeCodeCamp.org.</h2> 
+<h1>Build a Product Landing Page / Responsive web design project at freeCodeCamp.org.</h1> 
 
 Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/zNqgVx.
 
