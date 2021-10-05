@@ -1,5 +1,5 @@
 # Build a product landing page
-Responsive web design project at freeCodeCamp.org. 
+<h2>Responsive web design project at freeCodeCamp.org.</h2> 
 
 Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/zNqgVx.
 
@@ -25,6 +25,6 @@ User Story #8: The img element should responsively resize, relative to the width
 
 User Story #9: The img element should be centered within its parent element.
 
-<b>Preview:</b>
+<h2>Preview:</h2>
 
 ![alt text](https://github.com/binariicodice/build-a-product-landing-page/blob/main/1.png?raw=true)
